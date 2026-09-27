@@ -11,3 +11,6 @@ wheels/
 
 # .env 
 .env
+
+# Chroma-db
+income_tax_collection/
