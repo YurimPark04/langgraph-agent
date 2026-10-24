@@ -1,0 +1,9 @@
+time=2026-10-24T07:19:28.256Z level=INFO msg="starting server" version=v2.0.3 host="" readOnly=false lockdownEnabled=false
+time=2026-10-24T07:19:28.718Z level=INFO msg="token scopes fetched for filtering" scopes=[repo]
+GitHub MCP Server running on stdio
+time=2026-10-24T07:19:28.767Z level=INFO msg="server run start"
+time=2026-10-24T07:19:28.767Z level=INFO msg="server connecting"
+time=2026-10-24T07:19:28.767Z level=INFO msg="server session connected" session_id=""
+time=2026-10-24T07:19:28.776Z level=INFO msg="session initialized"
+time=2026-10-24T07:19:28.817Z level=INFO msg="server session disconnected" session_id=""
+time=2026-10-24T07:19:28.817Z level=INFO msg="server session ended"
