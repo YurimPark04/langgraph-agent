@@ -143,6 +143,18 @@ user_deduction_chain = (user_deduction_prompt_template
     | StrOutputParser()
 )
 
+
+
+
+
+"""
+## tax_deductible_tool로 툴 네임을 수정한 이유
+
+내부 로직을 보면 tax_deductible_response 형태로 변수가 선언되어 있다. 
+LLM이 `tax_deduct”ible”_tool` 로 찾기 때문에, 
+tax_deduction_tool 에서 → tax_deductible_tool 로 함수명을 바꿔준 것
+
+"""
 @mcp.tool(
         name='tax_deductible_tool',
         description="""사용자의 부동산 소유 현황에 대한 질문을 기반으로 세금 공제액을 계산합니다.
